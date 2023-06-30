@@ -1,0 +1,24 @@
+{
+  "name": "socialblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules--es-module-specifier-resolution=node App.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Habeeb",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "randomstring": "^1.3.0",
+    "request": "^2.88.2"
+  }
+}
